@@ -26,4 +26,9 @@ class Round
   def percent_correct
     (@number_correct.to_f / @guesses.length.to_f * 100).round
   end
+
+  # def start
+  #   @deck
+  #   @deck.record_guess(response)
+  # end
 end
